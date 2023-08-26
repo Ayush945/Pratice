@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: black;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.text {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 26px;
+    font-size: 24px;
+    padding: 24px;
+}
+
+.textscore {
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    font-size: 24px;
+    padding: 24px;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    font-size: 24px;
+    padding: 24px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    font-size: 24px;
+    padding: 24px;
+}
+
+button {
+    border: none;
+    padding: 24px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
