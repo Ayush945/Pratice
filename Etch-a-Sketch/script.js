@@ -31,6 +31,8 @@ function colorGrid() {
     pixels.forEach(pixel => {
         pixel.addEventListener("mouseover", () => {
             pixel.style.backgroundColor = "black";
+
+
         })
 
     })
@@ -52,6 +54,7 @@ function changeGrid() {
         pixel.addEventListener("mouseover", () => {
             pixel.style.backgroundColor = randomColor;
         })
+
     })
 }
 

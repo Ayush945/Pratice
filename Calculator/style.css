@@ -1,0 +1,64 @@
+body {
+    background-color: lightskyblue;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 38px;
+    font-style: italic;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    height: 400px;
+    background-color: white;
+    border: 10px solid lightcoral;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 16px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+button {
+    flex-basis: calc(33.33%-16px);
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #d0d0d0;
+}
