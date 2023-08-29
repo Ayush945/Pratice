@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="left-link">
+                <li>Library</li>
+            </div>
+            <div class="right-link">
+                <li>About</li>
+                <li>Login</li>
+                <li>Register</li>
+            </div>
+        </div>
+    </div>
+    <!-- Add button to include book -->
+
+    <button id="addId" class="addBook">Add Book</button>
+
+    <!-- Form to fill book data -->
+    <div id="formContainer" style="display: none;">
+        <form id="bookForm">
+            <input type="text" id="title" placeholder="Title" required>
+            <input type="text" id="author" placeholder="Author" required>
+            <button type="submit">Add</button>
+        </form>
+    </div>
+
+    <div id="libraryDisplay"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

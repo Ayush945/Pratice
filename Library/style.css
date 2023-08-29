@@ -1,0 +1,81 @@
+body {
+    background-color: #121313;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+
+    color: #39FF14;
+    font-size: 1.7rem;
+}
+
+.right-link {
+    display: flex;
+    width: 40vw;
+    justify-content: space-around;
+}
+
+button {
+    padding: 1.5vh;
+    background-color: #121313;
+    color: #39FF14;
+    border: none;
+    border-radius: 10%;
+    font-weight: bold;
+}
+
+button:active {
+    background-color: #FF6FFF;
+}
+
+.addBook {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+#bookForm {
+    height: 60vh;
+    margin-top: 20px;
+
+    gap: 26px;
+    padding: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#libraryDisplay {
+    margin-top: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+
+}
+
+#libraryDisplay div {
+
+    background-color: #333333;
+    padding: 20px;
+    border: 1px white solid;
+    color: white;
+    box-sizing: border-box;
+    flex-basis: calc(33.33% - 40px);
+    text-align: center;
+    font-size: 1.5rem;
+}
