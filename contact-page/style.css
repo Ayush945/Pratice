@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: lightskyblue;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10vh;
+}
+
+.container {
+    padding: 10vh;
+}
+
+.box {
+    display: flex;
+
+    padding: 8vh;
+    gap: 2vw;
+    justify-content: space-around;
+}
+
+.address {
+
+    padding: 4vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Phone {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 4vh;
+}
+
+.email-address {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 4vh;
+}
+
+
+.address-title {
+    font-size: 1.4rem;
+    margin-bottom: 1.2vh;
+    font-weight: bold;
+}
+
+.phone-title {
+    font-size: 1.4rem;
+    margin-bottom: 1.2vh;
+    font-weight: bold;
+}
+
+.email-title {
+    font-size: 1.4rem;
+    margin-bottom: 1.2vh;
+    font-weight: bold;
+}
+
+.border-shadow {
+    padding: 2vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-class {
+    gap: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2vh;
+    margin-bottom: 2vh;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
